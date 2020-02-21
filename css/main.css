@@ -12,20 +12,144 @@ body {
   /* Default font family and font color */
 }
 
-.entete {
+/**
+Rectangles en header
+*/
+.rectangle-jaune {
   background-color: #fcce00;
-  color: white;
-  text-align: center;
-  font-weight: 900;
-  padding: 20px 0;
+  opacity: 0.81;
+  margin-top: 8px;
+  
+}
+
+.rectangle-orange {
+  opacity: 0.81;
+  background-color:#ff6b00;
+
+}
+
+.rectangle-rouge {
+  height: 32px;
+  opacity: 0.81;
+  background-color: #e02020;
+}
+
+.rectangle-mauve {
+  height: 16px;
+  opacity: 0.81;
+  background-color: #b620e0;
+}
+
+.rectangle-violet {
+  height: 8px;
+  opacity: 0.81;
+  background-color: #6236ff;
 }
 
 .titre {
+ 
   font-size: 88px;
-  text-transform: uppercase;;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 .sous-titre {
   font-size: 38px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+}
+
+.titre_page{
+  font-size: 40px;
+  font-weight: 900;
+  padding-left: 231px;
+  color: black;
+}
+
+.produit{
+  display: flex;
+}
+
+.produit_content,
+.produit_illu {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+
+.texte{
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-left: 48px;
+  margin-right: 32px;
+}
+
+.texte2{
+  font-size: 16px;
+  text-align: justify;
+  color: black;
+  margin-right: 32px;
+  margin-left: 48px;
+}
+
+.bouton_cta{
+  border-radius: 15px;
+  color: #fcce00;
+  border: solid 4px;
+  margin-left: 503px;
+  margin-top: 30px;
+}
+
+.lm_cta{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:#fcce00; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 36px;
+
+}
+
+
+.produit_illu {
+  background: linear-gradient(to bottom, #FCD72F 50%, #FDE062 50%, 
+    #FDE062 75%, #FDEA95 75%, #FDEA95 88%, #FEF5CB 88% );
+  margin-bottom: 64px;
+}
+
+.produit_image{
+  mix-blend-mode: multiply;
+}
+
+
+
+
+.box3{
+  background: linear-gradient(to bottom, #FF8630 50%, #FFA463 50%, 
+    #FFA463 75%, #FFC296 75%, #FFC296 88%, #FFE1CC 88% );
+  margin-bottom: 64px;
+}
+
+.image_box3{
+  object-fit: contain;
+  margin-top: 41;
+  mix-blend-mode: multiply;
+}
+
+.texte3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 753px;
+  margin-right: 33px;
+  margin-top: 10px;
+  color: #231f20;
 }
 
 p, li, textarea, label, input, select {
