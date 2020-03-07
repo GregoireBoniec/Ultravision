@@ -16,31 +16,40 @@ body {
 Rectangles en header
 */
 .rectangle-jaune {
-  background-color: #fcce00;
+  width: 1440px;
+  height: 128px;
   opacity: 0.81;
   margin-top: 8px;
+  background-color: #fcce00;
+
+
   
 }
 
 .rectangle-orange {
+  width: 1440px;
+  height: 64px;
   opacity: 0.81;
   background-color:#ff6b00;
 
 }
 
 .rectangle-rouge {
+  width: 1440px;
   height: 32px;
   opacity: 0.81;
   background-color: #e02020;
 }
 
 .rectangle-mauve {
+  width: 1440px;
   height: 16px;
   opacity: 0.81;
   background-color: #b620e0;
 }
 
 .rectangle-violet {
+  width: 1440px;
   height: 8px;
   opacity: 0.81;
   background-color: #6236ff;
@@ -72,29 +81,35 @@ Rectangles en header
   display: flex;
 }
 
-.produit_content,
-.produit_illu {
-  flex-basis: 0;
-  flex-grow: 1;
-}
 
 
 .texte{
+  width: 640px;
+  height: 33px;
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
-  color: black;
   margin-left: 48px;
-  margin-right: 32px;
 }
 
 .texte2{
+  width: 640px;
+  height: 345px;
+  font-family: Poppins;
   font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: justify;
-  color: black;
-  margin-right: 32px;
   margin-left: 48px;
+  margin-right: 32px;
 }
 
 .bouton_cta{
@@ -113,45 +128,153 @@ Rectangles en header
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 36px;
+  margin-right: 36px;
 
 }
 
 
+
 .produit_illu {
+  width: 720px;
+  height: 512px;
   background: linear-gradient(to bottom, #FCD72F 50%, #FDE062 50%, 
-    #FDE062 75%, #FDEA95 75%, #FDEA95 88%, #FEF5CB 88% );
+  #FDE062 75%, #FDEA95 75%, #FDEA95 88%, #FEF5CB 88% );
   margin-bottom: 64px;
 }
 
 .produit_image{
+  width: 487px;
+  height: 471px;
+  margin-left: 217px;
+  margin-right: 16px;
   mix-blend-mode: multiply;
 }
 
-
-
-
-.box3{
+.produit_illu2{
+  width: 720px;
+  height: 512px;
   background: linear-gradient(to bottom, #FF8630 50%, #FFA463 50%, 
     #FFA463 75%, #FFC296 75%, #FFC296 88%, #FFE1CC 88% );
-  margin-bottom: 64px;
 }
 
-.image_box3{
+.produit_image2{
   object-fit: contain;
   margin-top: 41;
   mix-blend-mode: multiply;
+  margin-left: 171px;
 }
 
-.texte3 {
+.texte3{
+  width: 654px;
+  height: 66px;
+  font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
   text-align: center;
   margin-left: 753px;
   margin-right: 33px;
-  margin-top: 10px;
-  color: #231f20;
+  margin-top: -512px;
+
 }
 
+.texte4{
+  width: 640px;
+  height: 184px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  margin-left: 753px;
+}
+
+.ad{
+  text-transform: uppercase;
+  width: 430px;
+  height: 56px;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-left: 503px;
+  margin-top: 270px;
+}
+
+.jv1{
+  display: flex;
+  width: 1440px;
+  height: 640px;
+  opacity: 0.81;
+  background: linear-gradient(to bottom, #E64A4A 50%, #EC7676 50%, 
+    #EC7676 75%, #F2A3A3 75%, #F2A3A3 88%, #F9D2D2 88% );
+}
+
+.arcade{
+  width: 640px;
+  height: 45px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-left: 60px;
+}
+
+.produit_jeux1{
+  width: 745px;
+  height: 576px;
+  opacity: 0.9;
+  margin-left: 695px;
+  mix-blend-mode: multiply;
+}
+
+.jv2{
+  display: flex;
+  width: 1440px;
+  height: 640px;
+  opacity: 0.81;
+  background: linear-gradient(to bottom, #C34AE6 50%, #D276EC 50%, 
+    #D276EC 75%, #E1A3F2 75%, #E1A3F2 88%, #F0D2F9 88% );
+}
+
+.produit_jeux2{
+  width: 745px;
+  height: 576px;
+  opacity: 0.9;
+  margin-left: 695px;
+  mix-blend-mode: multiply;
+}
+
+.jv3{
+  display: flex;
+  width: 1440px;
+  height: 640px;
+  opacity: 0.81;
+  background: linear-gradient(to bottom, #7F5BFF 50%, #9F84FF 50%, 
+    #9F84FF 75%, #BEACFF 75%, #BEACFF 88%, #DFD6FF 88% );
+}
+
+.produit_jeux3{
+  width: 745px;
+  height: 576px;
+  opacity: 0.9;
+  margin-left: 695px;
+  mix-blend-mode: multiply;
+}
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
